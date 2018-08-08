@@ -1,45 +1,43 @@
-html, body {
-	background: purple; 
-	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: 5% 90% 5%;
-	grid-template-areas: 
-		"header header"
-		"body body body"
-		"footer footer footer";
-
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
 }
 
 .header {
-	grid-area: header;
-	background: green;
-	width: 100%;
-	align-self: center;
-	justify-content: space-around;
-	grid-column-start: 1;
-	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 2;
-
+	background: red;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: left;
+	padding: 20px;
 }
 
 .search {
-	grid-area: body;
-	background: red;
-	align-self: center;
-	grid-column-start: 1;
-	grid-column-end: 3;
-	grid-row-start: 2;
-	grid-row-end: 3;
+	background: blue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 85%;
 }
 
-
 .footer {
-	grid-area: footer;
-	background: blue;
-	align-self: center;
-	grid-column-start: 1;
-	grid-column-end: 3;
-	grid-row-start: 3;
-	grid-row-end: 4;
+	background: purple;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
+	padding: 20px;
+}
+
+#store {
+	padding: 0 20px 0 20px; 
+}
+
+#gmail {
+	padding: 0 20px 0 80%;
+}
+
+#images {
+	padding: 0 20px 0 0;
 }
