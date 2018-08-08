@@ -5,7 +5,7 @@
 }
 
 .header {
-	background: red;
+
 	display: inline-flex;
 	flex-direction: row;
 	align-items: left;
@@ -13,7 +13,7 @@
 }
 
 .search {
-	background: blue;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -22,22 +22,89 @@
 }
 
 .footer {
-	background: purple;
+	background: rgba(78, 81, 86, 0.1);
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: left;
+	padding: 20px;;
+
+}
+
+img {
 	padding: 20px;
+}
+
+.search-buttons {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
 }
 
 #store {
 	padding: 0 20px 0 20px; 
+	text-decoration: none;
+	color: black;
 }
 
 #gmail {
 	padding: 0 20px 0 80%;
+	text-decoration: none;
+	color: black;
 }
 
 #images {
 	padding: 0 20px 0 0;
+	text-decoration: none;
+	color: black;
+}
+
+#advertising {
+	padding: 0 20px 0 0;
+	text-decoration: none;
+	color: grey;
+}
+
+#business {
+	padding: 0 20px 0 0;
+	text-decoration: none;
+	color: grey;
+}
+
+#privacy {
+	padding: 0 20px 0 0;
+	text-decoration: none;
+	color: grey;
+}
+
+#terms {
+	padding: 0 20px 0 0;
+	text-decoration: none;
+	color: grey;
+}
+
+#search-button {
+	padding: 0 20px 0 0;
+	text-decoration: none;
+	color: black;
+}
+
+textarea {
+	width: 500px;
+	box-shadow: 2px 2px 2px 0px #929caa;
+}
+
+#settings {
+	text-decoration: none;
+	color: grey;
+}
+
+#about {
+	text-decoration: none;
+	color: black;
+}
+
+#im-feeling-lucky {
+	text-decoration: none;
+	color: black;
 }
